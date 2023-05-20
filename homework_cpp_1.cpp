@@ -1,6 +1,7 @@
 /*
  homework_cpp_1.cpp : This file contains the 'main' function. Program execution begins and ends there.
  feature/hm/ex_2
+ Comments written by GitHub Copilot
 */
 
 #include <iostream>
