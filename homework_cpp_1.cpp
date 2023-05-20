@@ -1,6 +1,6 @@
 /*
  homework_cpp_1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-
+  Comments written by GitHub Copilot
 */
 
 #include <iostream> // Allows program to perform input and output
