@@ -10,22 +10,25 @@
 using namespace std;
 
 int main() {
-    double R1, R2, R3;
+    SetConsoleCP(1251); // Set the code page to output the Cyrillic alphabet
+    SetConsoleOutputCP(1251); // Set the code page to output the Cyrillic alphabet
 
-    cout << "Enter the values of R1: ";
+    double R1, R2, R3; // R1, R2, R3 are the values of the resistors
+
+    cout << "¬вед≥ть значенн€ R1: "; // The user enters the values of the resistors
     cin >> R1;
 
-    cout << "Enter the values of R2: ";
+    cout << "¬вед≥ть значенн€ R2: "; 
     cin >> R2;
 
-    cout << "Enter the values of R3: ";
-    cin >> R3;
+    cout << "¬вед≥ть значенн€ R3: "; 
+    cin >> R3; 
 
-    double R0 = 1 / (1 / R1 + 1 / R2 + 1 / R3);
+    double R0 = 1 / (1 / R1 + 1 / R2 + 1 / R3); // The formula for calculating the total resistance
 
-    cout << "The value of resistance R0 is: " << R0 << endl;
+    cout << "The value of resistance R0 is: " << R0 << endl; // Output the value of resistance R0
 
-    return 0;
+    return 0; // End of the program
 }
 
 
