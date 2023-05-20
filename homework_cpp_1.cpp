@@ -26,7 +26,7 @@ int main() {
 
     double R0 = 1 / (1 / R1 + 1 / R2 + 1 / R3); // The formula for calculating the total resistance
 
-    cout << "The value of resistance R0 is: " << R0 << endl; // Output the value of resistance R0
+    cout << "Значення опору R0 становить: " << R0 << endl; // Output the value of resistance R0
 
     return 0; // End of the program
 }
