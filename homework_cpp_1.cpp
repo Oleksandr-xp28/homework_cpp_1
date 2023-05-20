@@ -9,11 +9,31 @@
 #include <iomanip>
 using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    double distance; // Length of the course in meters
+    int minutes, seconds; // Time in minutes and seconds
+    int totalSeconds; // Total time in seconds
+    double speedKmH; // Running speed in kilometers per hour
+
+    cout << "Calculating the running speed" << endl; // Output the result
+    cout << "Enter the length of the course (meters): "; // Input the length of the course in meters
+    cin >> distance; // Input the length of the course in meters
+
+    cout << "Enter the time (min. sec.): "; // Input time in minutes and seconds
+    cin >> minutes >> seconds;  // Input time in minutes and seconds
+
+    totalSeconds = minutes * 60 + seconds; // Calculate total time in seconds
+    speedKmH = distance / 1000 / (totalSeconds / 3600.0); // Calculate running speed in kilometers per hour
+
+    cout << "Distance: " << distance << " m" << endl; // Output the result
+    cout << "Time: " << minutes << " min " << seconds << " sec = " << totalSeconds << " sec" << endl; // Output the result
+    cout << "You ran at a speed of " << speedKmH << " km/h" << endl; // Output the result
+
+    return 0; // Exit program
 }
 
+
+// Path: homework_cpp_2.cpp
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
