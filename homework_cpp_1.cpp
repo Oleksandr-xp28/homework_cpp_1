@@ -1,4 +1,5 @@
 /*
+ Homework 2 Task 1.
  homework_cpp_1.cpp : This file contains the 'main' function. Program execution begins and ends there.
  feature/hm/task_1
 */
