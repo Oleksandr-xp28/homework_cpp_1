@@ -12,6 +12,7 @@ using namespace std; // Program uses names from the std namespace
 int main() { // Function main begins program execution
     SetConsoleCP(1251); // Set the console code page to 1251 (Cyrillic)
     SetConsoleOutputCP(1251); // Set the console code page to 1251 (Cyrillic)
+
     double v; // Initial velocity or speed
     double t; // Time
     double a; // Acceleration
