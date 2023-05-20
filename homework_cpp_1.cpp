@@ -9,8 +9,6 @@
 #include <iomanip>
 using namespace std;
 
-#include <iostream>
-
 int main() {
     double R1, R2, R3;
 
