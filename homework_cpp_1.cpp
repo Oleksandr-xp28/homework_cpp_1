@@ -8,11 +8,26 @@
 #include <cmath>
 #include <iomanip>
 using namespace std;
-int main()
-{
-    std::cout << "Hello World!\n";
+
+int main() {
+    SetConsoleCP(1251); // Встановлюємо кодування консолі Windows-1251
+    SetConsoleOutputCP(1251); // Встановлюємо кодування консолі Windows-1251
+    double number; // Дробове число, введене користувачем
+    int UAH, kopecks; // Окремі гривні та копійки
+
+    cout << "Введіть дробове число: ";
+    cin >> number;
+
+    UAH = number; // Виділяємо цілу частину (гривні)
+    kopecks = round((number - UAH) * 100); // Виділяємо дробову частину та переводимо в копійки
+
+    cout << "Грошовий формат: " << UAH << " грн " << kopecks << " коп" << endl;
+
+    return 0;
 }
 
+
+//int main()
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
